@@ -1,0 +1,5 @@
+day=int(input("enter number of days:"))
+hours_day=int(24*day)
+minutes=int(60*hours_day)
+seconds=int(60*minutes)
+print(f"number of hours={hours_day}, number of minutes={minutes}, number of seconds={seconds}")
